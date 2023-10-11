@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('./images/bg.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Nunito', sans-serif;
+}
+
+.weatherCard{
+    max-width: 600px;
+    min-width: 500px;
+    height: 600px;
+    padding: 35px;
+    background: #30313544;
+    border: 2px solid #f16100;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    backdrop-filter: blur(5px);
+    text-align: center;
+}
+
+.searchBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchBox input{
+    width: 80%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border: 2px solid #ffffff;
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+input:focus{
+    outline: none;
+    box-shadow: none;
+}
+.searchBox span{
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    background: #f16100;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    box-shadow: 0 0 20px 0 #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+.waetherImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0;
+}
+.waetherImg img{
+    width: 200px;
+    display: block;
+}
+#weather_des{
+    font-size: 42px;
+    color: #f1b100;
+
+}
+.today{
+    color: #f8f8f8;
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 5px;
+    font-family: 'Autour One', sans-serif;
+}
+.tempature{
+    font-size: 100px;
+    color: #f16100;
+    text-shadow: 0 0 50px 50px #1a1a1a;
+    font-family: 'Autour One', sans-serif;
+}
+.title{
+    font-size: 24px;
+}
+.location{
+    color: #f8f8f8;
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 50px;
+}
+/* #maxTemp{
+    width: 50%;
+} */
+.maxTemp {
+    font-size: 20px;
+    color: #ffffff;
+    display: flex;
+    font-weight: 300;
+    letter-spacing: 2px;
+    align-items: center;
+    text-align: left !important;
+}
+.maxTemp span{
+    font-size: 54px;
+    color: #f1b100;
+}
+.maxTemp #maxTemp span,.maxTemp #wind span{
+    font-size: 14px;
+    display: block;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
