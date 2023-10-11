@@ -14,7 +14,14 @@ body{
     align-items: center; 
     font-family: 'Nunito', sans-serif;
 }
-
+p{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 80px;
+    color: #f1b100;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 .weatherCard{
     max-width: 600px;
     min-width: 500px;

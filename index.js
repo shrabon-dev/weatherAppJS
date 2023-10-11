@@ -9,17 +9,10 @@ let windEle = document.getElementById('wind')
 let apiKey = `appid=8a84178714ffdc2e33c6ddeb3120067c`
 let apiURL = `https://api.openweathermap.org/data/2.5/weather?units=metric&`
 
-// Set Today Date in today element
-// function timeInterval(){
-//     let date = new Date();
-//     const setTodayDate = `${date.getDate()}-${date.getMonth() + 1}-${date.getFullYear()}`
-//     todayEle.innerText = setTodayDate
-
-// }
-// setInterval(timeInterval,1000)
 
 // Start Weather Set Using Weather APIs
 weatherFound('Sherpur')
+
 search.addEventListener('click',function(e){
     weatherFound(getValue.value)
 })
